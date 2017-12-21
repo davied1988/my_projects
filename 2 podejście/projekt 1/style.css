@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+}
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+header {
+	background-color: #313234;
+	height: 50px;
+	background-color: rgba(0.0.0 0.5);
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header > nav > img {
+	padding: 10px 0;
+}
+
+header > nav ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+header > nav ul > li {
+	display: inline-block;
+}
+
+header > nav ul > li > a {
+	line-height: 50px;
+	display: block;
+	color: #fff;
+	padding: 0 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header > nav ul > li > a:hover {
+	background: #ccc;
+	color: #168596;
+}
+
+.hero {
+	width: 100%;
+	height: 100vh;
+	background-image: url("https://static.pexels.com/photos/589817/pexels-photo-589817.jpeg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.slogan {
+	background-color: rgba(255, 0, 0, 0.6);
+	max-width: 800px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 20px;
+}
+
+.slogan > h1 {
+	margin: 0;
+	font-size: 38px;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+}
+
+.container {
+	margin: 50px auto;
+	text-align: center;
+}
+
+[class*="fa"] {
+	text-align: center;
+	font-size: 35px;
+}
+
+[class*='col-'] {
+	float: left;
+	Min-height: 1px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.container > p {
+	margin:  0 40px;
+	text-align: center;
+}
+
+.fa-university,
+.fa-truck, 
+.fa-fighter-jet {
+	font-size: 55px;
+	text-align: center;
+}
+
+.fa-university,
+.fa-truck, 
+.fa-fighter-jet:hover {
+	cursor: pointer;
+}
+
+.fa-camera-retro,
+.fa-search {
+	font-size: 20px;
+}
+
+.gallery img {
+	float: left;
+	width: 25%;
+	border-radius: 50%;
+	margin: 50px auto;
+}
+
+.gallery img:hover {
+	background: rgba(0,0,0, 0.5);	
+}
+
+.layer {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    line-height: 200px;
+}
+
+.main-gallery [class*="col"]:hover .layer {
+    display: block;
+}
+
+
+
+.twarze img {
+	border-radius: 50%;
+	margin-top: 50px;
+}
+
+.faces img:hover {
+	background: rgba(0,0,0, 0.5);
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.col-offset-1 {
+	margin-left: 8.33%;
+}
+
+.col-offset-2 {
+	margin-left: 16.66%;
+}
+
+.col-offset-3 {
+	margin-left: 25%;
+}
+
+.col-offset-4 {
+	margin-left: 33.33%;
+}
+
+.col-offset-5 {
+	margin-left: 41.66%;
+}
+
+.col-offset-6 {
+	margin-left: 50%;
+}
+
+.col-offset-7 {
+	margin-left: 58.33%;
+}
+
+.col-offset-8 {
+	margin-left: 66.66%;
+}
+
+.col-offset-9 {
+	margin-left: 75%;
+}
+
+.col-offset-10 {
+	margin-left: 83.33%;
+}
+
+.col-offset-11 {
+	margin-left: 91.66%;
+}
+
+footer > div {
+	background-color: #313234;
+	color: #FFF;
+}
+
+.main-gallery [class*="col"] {
+    position: relative;
+}
+
+.stopka {
+	background-color: #252726;
+	padding: 7px;
+}
+
+.interesting {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+}
+
+.wrapper {
+	padding: 0 15px;
+}
+
+i.fa:hover, i.fa:hover + h3 {
+	color: red;
+}
+
+nav img {
+	margin-top: 10px;
+	float: left;
+}
+
+section {
+   margin-bottom: 20px;
+}
+
+.col-2 > img {
+    float: left;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.new-characteres {
+	color: #01C6E5;
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+}
+
+.space {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.icon-btn {
+	height: 40px;
+	width: 40px;
+	border: 0;
+	color: #FFFFFF;
+	margin: auto;
+	cursor: pointer;
+	font-size: 5px;
+	padding: 4px;
+	background-color: #4099FF;
+}
+
+.icon-btn:hover {
+	transform: scale(1.10);
+	-webkit-transform: scale(1.10);
+	backface-visibility: hidden;
+}

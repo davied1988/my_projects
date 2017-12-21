@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>...</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Data Movement</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Start</a></li>
+					<li><a href="#">Cennik</a></li>
+					<li><a href="#">Samochody</a></li>
+					<li><a href="#">Kontakt</a></li>
+				</ul>
+				<form class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Szukaj">
+					</div>
+					<button type="submit" class="btn btn-default">Potwierdź</button>
+				</form>
+			</div>
+		</nav>
+		<section class="jumbotron">
+			<p class="text-center text-capitalize">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+			<h1>Miło Cię widzieć<br><small>Podtytułowy tytuł</small></h1>
+			<button class="btn btn-primary btn-lg">Guzik</button><br>
+		</section>
+		<section>
+			<h1>Kolejny tytuł<br><small>Galeria</small></h1>
+			<img src="http://i.imgur.com/AGEgF5B.jpg" alt="pierwsze" class="img-responsive img-circle img-thumbnail">
+			<img src="http://i.imgur.com/7Ff7rDB.jpg" alt="drugie" class="img-responsive img-circle img-thumbnail">
+			<img src="http://i.imgur.com/KUt6tGb.jpg" alt="trzecie" class="img-responsive img-circle img-thumbnail">
+			<img src="http://i.imgur.com/Ue2tUMV.jpg" alt="czwarte" class="img-responsive img-circle img-thumbnail">
+		</section>
+		<section>
+			<div class="table-responsive">
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Surname</th>
+							<th>e-mail</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Jan</td>
+							<td>Nowak</td>
+							<td>jan@gmail.com</td>
+						</tr>
+						<tr>
+							<td>Sebastian</td>
+							<td>Gruszka</td>
+							<td>sebastian@gmail.com</td>
+						</tr>
+						<tr>
+							<td>Mateusz</td>
+							<td>Kopytko</td>
+							<td>mati@gmail.com</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-xs-6"><img src="http://i.imgur.com/AGEgF5B.jpg" alt="" class="img-responsive img-thumbnail"></div>
+					<div class="col-md-3 col-xs-6"><img src="http://i.imgur.com/7Ff7rDB.jpg" alt="" class="img-responsive img-thumbnail"></div>
+					<div class="col-md-3 col-xs-6"><img src="http://i.imgur.com/KUt6tGb.jpg" alt="" class="img-responsive img-thumbnail"></div>
+					<div class="col-md-3 col-xs-6"><img src="http://i.imgur.com/Ue2tUMV.jpg" alt="" class="img-responsive img-thumbnail"></div>
+				</div>
+			</div>
+			<div class="media">
+				<div class="media-left">
+					<a href="#">
+						<a class="img-modal-group" href="..." alt="..."><img src="http://i.imgur.com/Ue2tUMV.jpg" alt="..." alt=""></a>
+					</a>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">Polecany artykuł</h4>
+					<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+				</div>
+			</div>
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="my-name">Imię</label><br>
+					<input type="text" name="name" placeholder="Jan" id="my-name" class="form-control"><br><br>
+				</div>
+				<div class="form-group">
+					<label for="my-surname">Nazwicho</label><br>
+					<input type="password" name="surname" placeholder="Domański" id="my-surname" class="form-control"><br>
+				</div>
+				<div class="form-group has-success">
+					<label for="my-email">Emajl</label><br>
+					<input type="email" name="email" placeholder="adress@example.com" id="my-email" class="form-control"><br>
+				</div>
+				<button type="submit" class="btn btn-success form-control">Submitnij o tu</button><br><br>
+				<div class="form-group">
+					<textarea name="inputMessage" id="inputMessage" class="form-control" rows="3" required></textarea>
+				</div>
+			</form>		
+		</section>
+		<div class="card" style="width: 20rem;">
+			<img class="card-img-top" src="http://i.imgur.com/7Ff7rDB.jpg" alt="Card image cap">
+			<div class="card-body">
+				<h4 class="card-title">Moja karta</h4>
+				<p class="card-text">Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+				<a href="#" class="btn btn-primary">Tylko naciśnij!</a>
+			</div>
+		</div>
+	</body>
+</html>
